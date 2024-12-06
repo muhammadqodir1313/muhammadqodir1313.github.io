@@ -191,7 +191,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
     };
 
     try {
-        const response = await fetch('http://localhost:5000/api/contact', {
+        const response = await fetch('https://backend-3l6p.onrender.com/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
