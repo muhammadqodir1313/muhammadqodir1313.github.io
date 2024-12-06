@@ -191,25 +191,31 @@ document.getElementById('contactForm').addEventListener('submit', async function
     };
 
     try {
+        // Backend ulanishini tekshirish
         const response = await fetch('https://backend-3l6p.onrender.com/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
             mode: 'cors',
+            credentials: 'include', // CORS uchun credentials qo'shildi
             body: JSON.stringify(formData)
         });
 
-        if (response.ok) {
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> Yuborildi!';
-            submitBtn.style.backgroundColor = '#2ecc71';
-            this.reset();
-        } else {
-            throw new Error('Server xatosi');
+        if (!response.ok) {
+            throw new Error(`Server xatosi: ${response.status}`);
         }
+        
+        const data = await response.json(); // Javobni tekshirish
+        console.log('Server javobi:', data);
+        
+        submitBtn.innerHTML = '<i class="fas fa-check"></i> Yuborildi!';
+        submitBtn.style.backgroundColor = '#2ecc71';
+        this.reset();
     } catch (error) {
-        console.error('Xatolik:', error);
-        submitBtn.innerHTML = '<i class="fas fa-exclamation-circle"></i> Xatolik!';
+        console.error('Ulanish xatosi:', error.message);
+        submitBtn.innerHTML = '<i class="fas fa-exclamation-circle"></i> Serverga ulanib bo\'lmadi';
         submitBtn.style.backgroundColor = '#e74c3c';
     }
 
