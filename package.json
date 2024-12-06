@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node-telegram-bot-api": "^0.63.0",
+    "uuid": "^11.0.3",
+    "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0"
+  },
+  "name": "ozim-uchun",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

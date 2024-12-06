@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta teglar -->
+    <title>Muhammadqodir Abdullajonov - Frontend Dasturchi Portfolio</title>
+    <meta name="description" content="Muhammadqodir Abdullajonov - Frontend dasturchi portfoliosi. Zamonaviy web ilovalar yaratish bo'yicha tajribaga ega dasturchi.">
+    <meta name="keywords" content="frontend dasturchi, web dasturchi, portfolio, o'zbekiston, react, javascript">
+    <meta name="author" content="Muhammadqodir Abdullajonov">
+    
+    <!-- Open Graph Meta teglar (ijtimoiy tarmoqlar uchun) -->
+    <meta property="og:title" content="Muhammadqodir Abdullajonov - Frontend Dasturchi">
+    <meta property="og:description" content="Zamonaviy va foydalanuvchilarga qulay web ilovalar yarataman">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://sizning-domeningiz.uz">
+    
+    <!-- Twitter Card Meta teglar -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Muhammadqodir Abdullajonov - Frontend Dasturchi">
+    <meta name="twitter:description" content="Zamonaviy va foydalanuvchilarga qulay web ilovalar yarataman">
+    <meta name="twitter:image" content="images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <a href="#" class="nav-logo">M.A</a>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link active">Asosiy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#men-haqimda" class="nav-link">Men haqimda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#loyihalar" class="nav-link">Loyihalar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aloqa" class="nav-link">Aloqa</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section" aria-label="Asosiy" data-aos="fade-up">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="highlight">Muhammadqodir Abdullajonov</span>
+                        Frontend Dasturchi
+                    </h1>
+                    <p class="hero-description">
+                        Zamonaviy va foydalanuvchilarga qulay web ilovalar yarataman
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#loyihalar" class="btn btn-primary">Loyihalarni ko'rish</a>
+                        <a href="#aloqa" class="btn btn-outline">Bog'lanish</a>
+                    </div>
+                    
+                    <!-- Ijtimoiy tarmoq ikonkalari -->
+                    <div class="social-icons">
+                        <a href="https://t.me/muhammadqodir_7177" class="social-icon telegram" target="_blank" title="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://www.instagram.com/muhammadqodir_7177/" class="social-icon instagram" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammadqodir-abdullajonov-358060296/" class="social-icon linkedin" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/muhammadqodir1313" class="social-icon github" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@m_sw1905" class="social-icon youtube" target="_blank" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Men haqimda -->
+        <section id="men-haqimda" class="about-section" aria-label="Men haqimda" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Men haqimda</h2>
+                    <p class="section-subtitle">Frontend dasturchi va talaba</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-info">
+                        <div class="about-text">
+                            <p>
+                                Salom! Men Muhammadqodir Abdullajonov, 20 yoshdagi Frontend dasturchi. 
+                                Zamonaviy web ilovalar yaratish bo'yicha tajribaga egaman.
+                            </p>
+                            <p>
+                                Hozirda Toshkent Axborot Texnologiyalari Universiteti Farg'ona filialida 
+                                2-bosqich talabasi sifatida tahsil olmoqdaman va frontend dasturlash 
+                                yo'nalishida o'z bilimlarimni oshirib bormoqdaman.
+                            </p>
+                        </div>
+
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Yillik tajriba</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Loyihalar</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Web texnologiyalar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-container">
+                        <h3>Ko'nikmalar</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5/CSS3</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">40%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loyihalar -->
+        <section id="loyihalar" class="projects-section" aria-label="Loyihalar" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Loyihalar</h2>
+                    <p class="section-subtitle">Mening oxirgi ishlarim</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Enrollex loyihasi -->
+                    <div class="project-card" onclick="openModal('enrollex')">
+                        <div class="project-image">
+                            <img src="images/projects/enrollex.jpg" alt="Enrollex - Bemorlar ro'yxati tizimi">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/muhammadqodir1313/enrollex" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Enrollex</h3>
+                            <p>Shifoxona uchun bemorlar ro'yxatini shakllantirish va boshqarish tizimi</p>
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Qt Framework</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kalkulator -->
+                    <div class="project-card" onclick="openModal('calculator')">
+                        <div class="project-image">
+                            <img src="images/projects/calc.jpg" alt="Kalkulator dasturi">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/muhammadqodir1313/calculator" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Kalkulator</h3>
+                            <p>Desktop kalkulator ilovasi. Asosiy matematik amallarni bajarish imkoniyatiga ega</p>
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Windows Forms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloknot -->
+                    <div class="project-card" onclick="openModal('notepad')">
+                        <div class="project-image">
+                            <img src="images/projects/notepad.jpg" alt="Bloknot dasturi">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/muhammadqodir1313/notepad" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Bloknot</h3>
+                            <p>Matn muharriri. Fayllarni yaratish, tahrirlash va saqlash imkoniyatlariga ega</p>
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Windows Forms</span>
+                                <span>File I/O</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="aloqa" class="contact-section" aria-label="Aloqa" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Bog'lanish</h2>
+                    <p class="section-subtitle">Men bilan bog'laning</p>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Telefon</h3>
+                                <p><a href="tel:+998903660502" class="contact-link">+998 90 366 05 02</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p><a href="mailto:farhodjonovichm1301@gmail.com" class="contact-link">farhodjonovichm1301@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Manzil</h3>
+                                <p>Farg'ona, O'zbekiston</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <a href="https://t.me/muhammadqodir_7177" class="social-link telegram" target="_blank" title="Telegram">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/muhammadqodir_7177/" class="social-link instagram" target="_blank" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammadqodir-abdullajonov-358060296/" class="social-link linkedin" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/muhammadqodir1313" class="social-link github" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@m_sw1905" class="social-link youtube" target="_blank" title="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Ismingiz" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email manzilingiz" required autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Xabaringiz" required autocomplete="off"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Yuborish</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer contentini keyinroq qo'shamiz -->
+    </footer>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle" class="modal-title"></h2>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <p id="modalDescription" class="modal-description"></p>
+            <a id="modalLink" class="modal-link" href="https://github.com/muhammadqodir1313" target="_blank">Loyihani ko'rish</a>
+        </div>
+    </div>                          
+
+    <!-- JavaScript faylini ulash -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // EmailJS dan olgan public keyingiz
+        })();
+    </script>
+</body>
+</html> 
