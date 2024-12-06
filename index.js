@@ -9,3 +9,5 @@ app.use(cors({
     credentials: true,
     allowedHeaders: ['Content-Type', 'Accept']
 }));
+
+fetch('https://backend-3l6p.onrender.com/api/users')
