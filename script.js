@@ -24,6 +24,48 @@ function openModal(projectId) {
             image: 'images/projects/notepad.jpg',
             description: 'Matn muharriri. Fayllarni yaratish, tahrirlash va saqlash imkoniyatlariga ega.',
             link: 'https://github.com/muhammadqodir1313/notepad'
+        },
+        'peer-learn': {
+            title: 'Peer-Learn',
+            image: 'images/projects/peer-learn.png',
+            description: 'Hamma soha vakillari uchun bilim almashinuv platformasi. React, Vue.js, MongoDB, TailwindCSS.',
+            link: 'https://muhammadqodir1313.github.io/Peer-Learn/'
+        },
+        'tatuff-ovozi': {
+            title: 'TATUFF Ovozi',
+            image: 'images/projects/tatuff-ovozi.png',
+            description: 'Onlayn radio va eshittirishlar platformasi, foydalanuvchilar uchun zamonaviy va interaktiv dizayn. HTML, CSS, JavaScript, Bootstrap.',
+            link: 'https://muhammadqodir1313.github.io/TATUFF-Ovozi/'
+        },
+        'basics-of-anatomy': {
+            title: 'Basics of Anatomy',
+            image: 'images/projects/basics-of-anatomy.png',
+            description: 'Anatomiya asoslarini o\'rgatuvchi interaktiv veb-ilova. HTML, CSS, JavaScript, React, Node.js.',
+            link: 'https://muhammadqodir1313.github.io/basics-of-anatomy/'
+        },
+        'translab': {
+            title: 'Translab',
+            image: 'images/projects/translab.png',
+            description: 'Tarjima xizmatlari va kurslar uchun ko\'p tilli veb-sayt. HTML, CSS.',
+            link: 'https://muhammadqodir1313.github.io/translab/'
+        },
+        'tingla': {
+            title: 'Tingla',
+            image: 'images/projects/tingla.jpg',
+            description: 'Audio va elektron kitoblarni tinglash va o\'qish uchun platforma. HTML, CSS.',
+            link: 'https://muhammadqodir1313.github.io/tingla/'
+        },
+        'minimal': {
+            title: 'Minimal',
+            image: 'images/projects/minimal.png',
+            description: 'Minimalist dizayn asosidagi portfoliolar va brendlar uchun veb-sayt. HTML, CSS.',
+            link: 'https://muhammadqodir1313.github.io/Minimal/'
+        },
+        'furnitureweb': {
+            title: 'FurnitureWeb',
+            image: 'images/projects/furniture.png',
+            description: 'Zamonaviy mebel katalogi va buyurtma platformasi. HTML, CSS.',
+            link: 'https://muhammadqodir1313.github.io/furnitureWeb/'
         }
     };
 

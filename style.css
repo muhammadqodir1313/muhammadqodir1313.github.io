@@ -715,9 +715,11 @@ h3 { font-size: 1.5rem; }
     text-align: center;
     position: relative;
     z-index: 1;
+    margin-top: 60px;
 }
 
 .hero-title {
+    margin-top: 60px;
     font-size: 3.5rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
@@ -886,6 +888,8 @@ h3 { font-size: 1.5rem; }
     color: #3498db;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 1100;
 }
 
 .nav-menu {
